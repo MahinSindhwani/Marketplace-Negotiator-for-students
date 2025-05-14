@@ -3,11 +3,11 @@ from NegotiatorAI import Negotiator
 
 def main():
     print("📦 Welcome to FB Marketplace Negotiator")
-    fb_link = input("🔗 Paste the Facebook Marketplace ad link: ").strip()
+    fbLink = input("🔗 Paste the Facebook Marketplace ad link: ").strip()
 
     print("\n🌐 Launching browser and scraping listing...")
     scrapper = Scrapper()
-    scrapper.setLink(fb_link)
+    scrapper.setLink(fbLink)
     scrapper.adOpener()
     scrapper.waitForLogin()
     scrapper.scrapeDescription()
