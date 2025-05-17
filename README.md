@@ -1,46 +1,56 @@
-# Marketplace-Negotiator-for-Students
+# 🏠 Marketplace Negotiator for Students
 
-This project supports students by using generative AI to draft housing inquiry messages, reducing the stress of finding accommodations. It combines Selenium for web scraping Facebook Marketplace listings with ChatGPT for message generation, involving both prompt engineering and API integration.
+This project helps students and individuals who need assistance writing housing inquiry messages. It uses generative AI (via the OpenAI API) to craft friendly and professional messages, reducing the stress of finding accommodations. It combines **Selenium** for scraping Facebook Marketplace listings with **ChatGPT** for message generation — using both prompt engineering and API integration.
 
 ---
 
-## 📚 Libraries to Download
+## 📚 Required Libraries
 
-Make sure you have Python 3.10+ installed. Then, install the required libraries:
+Make sure you have **Python 3.10+** installed. Then, install the necessary libraries:
 
-- `selenium` (for web automation)  
+- `selenium` — for web automation  
   → `pip install selenium`
 
-- `undetected-chromedriver` (to bypass bot detection on Facebook)  
+- `undetected-chromedriver` — bypasses bot detection on Facebook  
   → `pip install undetected-chromedriver`
 
-- `openai` (to interact with the ChatGPT API)  
+- `openai` — interacts with the ChatGPT API  
   → `pip install openai`
 
 ---
 
-## 🚀 How to Use This
+## 🚀 How to Use
 
 1. **Clone or download this repository.**
 
-2. **Set up your OpenAI API key.**  
-   - You must have an API key from OpenAI.
-   - Save it in your environment or directly in your code (not recommended for public use).
+2. **Set up your OpenAI API key**  
+   - You must have a valid OpenAI API key.
+   - Store it securely in your environment variables (recommended) or directly in the script for testing.
 
-3. **Run `main.py`.**  
-   This script will:
-   - Ask you to paste a Facebook Marketplace listing URL.
-   - Open Chrome in a controlled window and allow you to log in to Facebook.
-   - Scrape the listing description and price.
-   - Use ChatGPT to generate a friendly message to the seller asking for a student-friendly price.
+3. **Run `main.py`**  
+   The script will:
+   - Ask you for a Facebook Marketplace listing URL.
+   - Launch Chrome and allow you to manually log in to Facebook.
+   - Scrape the listing's description and price.
+   - Use ChatGPT to generate a polite, student-friendly message for the seller.
 
-4. **Read the AI-generated message in the terminal.**  
-   You can then copy and paste it into Facebook Messenger to contact the seller.
+4. **Use the AI-generated message**  
+   - The message will be printed in your terminal.
+   - You can copy it and paste it into Facebook Messenger.
 
 ---
 
-### 💡 Note:
-- Facebook login is **manual** and required.
-- Make sure Chrome is installed and compatible with `undetected-chromedriver`.
-- This tool is for educational and personal use only.
+## ⚠️ Notes
 
+- Facebook login must be completed manually.
+- Make sure your installed Chrome version is compatible with `undetected-chromedriver`.
+- This tool is intended for **educational and personal use only**.
+- I am working on making this into a chrome extension for easy usage
+
+---
+
+## 🔧 Tech Stack
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/-Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
