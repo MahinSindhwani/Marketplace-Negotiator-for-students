@@ -1,6 +1,6 @@
 # 🏠 Marketplace Negotiator for Students
 
-This project helps students and individuals who need assistance writing housing inquiry messages. It uses generative AI (via the OpenAI API) to craft friendly and professional messages, reducing the stress of finding accommodations. It combines **Selenium** for scraping Facebook Marketplace listings with **ChatGPT** for message generation — using both prompt engineering and API integration.
+This project helps students and individuals who need assistance writing housing inquiry messages. It uses generative AI (via the OpenAI API) to craft friendly and professional messages, reducing the stress of finding accommodations. It combines **Selenium** for scraping Facebook Marketplace listings with **OpenAI API** for message generation — using both prompt engineering and API integration.
 
 ---
 
