@@ -17,6 +17,11 @@ Make sure you have **Python 3.10+** installed. Then, install the necessary libra
 - `openai` — interacts with the ChatGPT API  
   → `pip install openai`
 
+- For ease clone the repo and run:
+
+```bash
+pip install -r requirements.txt
+
 ---
 
 ## 🚀 How to Use
