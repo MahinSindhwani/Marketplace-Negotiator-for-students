@@ -18,9 +18,8 @@ Make sure you have **Python 3.10+** installed. Then, install the necessary libra
   → `pip install openai`
 
 - For ease clone the repo and run:
-
-```bash
-pip install -r requirements.txt
+     ```bash
+  pip install -r requirements.txt
 
 ---
 
